@@ -1,13 +1,17 @@
-# PreCourse_1
+# ETL pipeline for Patient Data
 
-# All Instructions are already provided in the respective files.
+Implemented a pyspark data solution for implementing ETL data pipelines to transform patient data
 
-Exercise_1 : Implement Stack using Array.
+As required, all the patient sensitive details are removed
 
-Exercise_2 : Implement Stack using Linked List.
+raw data is cleaned and columns are transformed to the required data format.
 
-Exercise_3 : Implement Singly Linked List.
+The average of all glucose measurements is calculated and appropriate sugar_level values are given.
 
-Exercise_4 : Insert an element in a Binary Tree.
+Unit tests are written for the functions used. All the appropriate test cases are passed.
 
-*After completing the project kindly submit a pull request*
+The command to execute code is
+
+spark-submit main.py input_file_path output_file_path
+
+
