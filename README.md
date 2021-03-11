@@ -12,6 +12,6 @@ Unit tests are written for the functions used. All the appropriate test cases ar
 
 The command to execute code is
 
-spark-submit main.py input_file_path output_file_path
+## spark-submit main.py input_file_path output_file_path
 
 
